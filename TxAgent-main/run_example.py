@@ -4,7 +4,7 @@ if __name__ == '__main__':
   os.environ["MKL_THREADING_LAYER"] = "GNU"
   
   
-  model_name = 'mims-harvard/TxAgent-T1-Llama-3.1-8B'
+  model_name = 'mims-harvard/TxAgent-T1-Llama-3.1-3B'
   rag_model_name = 'mims-harvard/ToolRAG-T1-GTE-Qwen2-1.5B'
   multiagent = False
   max_round = 20
